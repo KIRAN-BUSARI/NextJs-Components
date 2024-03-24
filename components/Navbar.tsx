@@ -31,6 +31,7 @@ function Navbar({ className }: { className?: string }) {
                 </MenuItem>
                 <MenuItem setActive={setActive} active={active} item="Products">
                     <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+                        {/* Next/image Error Fix: Link : https://nextjs.org/docs/messages/next-image-unconfigured-host */}
                         <ProductItem
                             title="Algochurn"
                             href="https://algochurn.com"
