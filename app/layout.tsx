@@ -11,6 +11,23 @@ import { CanvasRevealEffectDemo2 } from "@/components/CanvasRevealEffectDemo2";
 import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
 import { LampDemo } from "@/components/LampDemo";
 import { SignupFormDemo } from "@/components/SignupFormDemo";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { SpotlightPreview } from "@/components/SpotlightPreview";
+import { TypewriterEffectSmoothDemo } from "@/components/TypewriterEffectSmoothDemo";
+import { TypewriterEffectDemo } from "@/components/TypewriterEffectDemo";
+import { TextRevealCard } from "@/components/ui/text-reveal-card";
+import { TextRevealCardPreview } from "@/components/TextRevealCardPreview";
+import { TextGenerateEffectDemo } from "@/components/TextGenerateEffectDemo";
+import { StickyScrollRevealDemo } from "@/components/StickyScrollRevealDemo";
+import { SparklesPreview } from "@/components/SparklesPreview";
+import { SparklesPreviewFull } from "@/components/SparklesPreviewFull";
+import { AnimatedTooltipPreview } from "@/components/AnimatedTooltipPreview";
+import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
+import { DirectionAwareHoverDemo } from "@/components/DirectionAwareHoverDemo";
+import { MeteorsDemo } from "@/components/MeteorsDemo";
+import { TabsDemo } from "@/components/TabsDemo";
+import { MultiStepLoaderDemo } from "@/components/MultiStepLoaderDemo";
+import { CardStackDemo } from "@/components/CardStackDemo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,6 +73,56 @@ export default function RootLayout({
         </div>
         <div className="">
           <SignupFormDemo />
+        </div>
+        <div className="">
+          <InfiniteMovingCardsDemo />
+        </div>
+        <div className="">
+          <SpotlightPreview />
+        </div>
+        <div className="">
+          <TypewriterEffectSmoothDemo />
+        </div>
+        <div className="">
+          <TypewriterEffectDemo />
+        </div>
+        <div className="">
+          <TextRevealCardPreview />
+        </div>
+        <div className="h-screen flex flex-col justify-center items-center">
+          <div className="w-1/2">
+            <TextGenerateEffectDemo />
+          </div>
+        </div>
+        <div className="">
+          <StickyScrollRevealDemo />
+        </div>
+        <div className="">
+          <SparklesPreview />
+        </div>
+        <div className="">
+          <SparklesPreviewFull />
+        </div>
+        <div className="flex h-screen justify-center items-center">
+          <AnimatedTooltipPreview />
+        </div>
+        <div className="flex h-screen justify-center items-center">
+          <BackgroundBoxesDemo />
+        </div>
+        <div className="">
+          <DirectionAwareHoverDemo />
+        </div>
+        <div className="h-screen flex justify-center items-center">
+          <MeteorsDemo />
+        </div>
+        <div className="">
+          <TabsDemo />
+        </div>
+        <div className="flex justify-center items-center h-screen">
+          <MultiStepLoaderDemo />
+        </div>
+        <div className="">
+          <CardStackDemo />
         </div>
       </body>
     </html>
