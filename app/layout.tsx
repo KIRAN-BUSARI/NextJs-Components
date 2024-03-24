@@ -28,6 +28,9 @@ export default function RootLayout({
           <GridBackgroundDemo />
         </div>
         <div className="">
+          <DotBackgroundDemo />
+        </div>
+        <div className="">
           <SmallGridBackgroundDemo />
         </div>
       </body>
