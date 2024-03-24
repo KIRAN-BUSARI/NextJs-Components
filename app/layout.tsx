@@ -5,6 +5,12 @@ import { NavbarDemo } from "@/components/Navbar";
 import { GridBackgroundDemo } from "@/components/GirdBackground";
 import { DotBackgroundDemo } from "@/components/DotBackground";
 import { SmallGridBackgroundDemo } from "@/components/GridSmallBackground";
+import { CanvasRevealEffectDemo } from "@/components/CanvasRevealEffectDemo";
+import { CanvasRevealEffectDemo3 } from "@/components/CanvasRevealEffectDemo3";
+import { CanvasRevealEffectDemo2 } from "@/components/CanvasRevealEffectDemo2";
+import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
+import { LampDemo } from "@/components/LampDemo";
+import { SignupFormDemo } from "@/components/SignupFormDemo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +38,24 @@ export default function RootLayout({
         </div>
         <div className="">
           <SmallGridBackgroundDemo />
+        </div>
+        <div className="">
+          <CanvasRevealEffectDemo />
+        </div>
+        <div className="">
+          <CanvasRevealEffectDemo3 />
+        </div>
+        <div className="">
+          <CanvasRevealEffectDemo2 />
+        </div>
+        <div className="">
+          <ThreeDCardDemo />
+        </div>
+        <div className="">
+          <LampDemo />
+        </div>
+        <div className="">
+          <SignupFormDemo />
         </div>
       </body>
     </html>
