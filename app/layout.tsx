@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavbarDemo } from "@/components/Navbar";
 import { GridBackgroundDemo } from "@/components/GirdBackground";
+import { DotBackgroundDemo } from "@/components/DotBackground";
+import { SmallGridBackgroundDemo } from "@/components/GridSmallBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +26,9 @@ export default function RootLayout({
         </div>
         <div className="">
           <GridBackgroundDemo />
+        </div>
+        <div className="">
+          <SmallGridBackgroundDemo />
         </div>
       </body>
     </html>
